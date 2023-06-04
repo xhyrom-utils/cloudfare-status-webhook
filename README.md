@@ -1,3 +1,5 @@
+Join [Hyro's Coffe](https://discord.com/invite/kFPKmEKeMS/) for latest updates.
+
 # Discord API Status Webhook
 
 ### Table of Contents
