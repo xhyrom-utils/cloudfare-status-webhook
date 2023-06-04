@@ -151,7 +151,7 @@ async function start() {
  */
 async function sendIncident(incident: any) {
     const res = await webhookClient.send({
-        content: `<@&1114911055123070997>`
+        content: `<@&1114911055123070997>`,
         embeds: [buildIncidentEmbed(incident)],
     });
     return res.id;
