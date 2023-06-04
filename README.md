@@ -1,4 +1,4 @@
-Join [Hyro's Coffe](https://discord.com/invite/kFPKmEKeMS/) for latest updates.
+Join [Hyro's Coffe](https://s.xhyrom.dev/discord) for latest updates.
 
 # Discord API Status Webhook
 
