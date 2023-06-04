@@ -2,11 +2,12 @@ import fetch from 'node-fetch';
 import * as fs from "fs";
 import {ColorResolvable, DiscordAPIError, MessageEmbed, WebhookClient} from "discord.js";
 import {time} from "@discordjs/builders";
+import {join} from "node:path";
 import * as config from "./config.json";
 const _ = require("lodash");
 
 const apiUrl = "https://discordstatus.com/api/v2/incidents.json";
-const cacheFileName = "./messages.json";
+const cacheFileName = join(__dirname, "messages.json");
 
 const ignoreDays = config["ignoreDays"]??30;
 const ignoreTime = ignoreDays * 86400000;
