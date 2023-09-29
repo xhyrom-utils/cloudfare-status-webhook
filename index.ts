@@ -6,7 +6,7 @@ import {join} from "node:path";
 import * as config from "./config.json";
 const _ = require("lodash");
 
-const apiUrl = "https://discordstatus.com/api/v2/incidents.json";
+const apiUrl = "https://www.cloudflarestatus.com/api/v2/incidents.json";
 const cacheFileName = join(__dirname, "messages.json");
 
 const ignoreDays = config["ignoreDays"]??30;
@@ -152,7 +152,7 @@ async function start() {
  */
 async function sendIncident(incident: any) {
     const res = await webhookClient.send({
-        content: `<@&1114911055123070997>`,
+        content: `<@&1157293690407092324>`,
         embeds: [buildIncidentEmbed(incident)],
     });
     return res.id;
