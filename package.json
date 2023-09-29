@@ -1,7 +1,7 @@
 {
-  "name": "discord-api-status-webhook",
+  "name": "cloudflare-api-status-webhook",
   "version": "1.0.0",
-  "description": "Discord Webhook to display the discord api's status.",
+  "description": "Discord Webhook to display the cloudflare status.",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
